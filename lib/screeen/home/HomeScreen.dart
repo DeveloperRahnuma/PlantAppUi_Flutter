@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:plant_flutter_app_ui/screeen/home/HomeComponent/Body.dart';
-import 'HomeComponent/ToolBar.dart';
+import 'package:plant_flutter_app_ui/screeen/home/HomeComponent/Component/Body.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
