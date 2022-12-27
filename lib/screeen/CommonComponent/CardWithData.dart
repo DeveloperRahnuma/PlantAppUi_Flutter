@@ -21,7 +21,7 @@ class CardWithData extends StatelessWidget {
         .of(context)
         .size;
     return Container(
-      width: size.width * 0.4,
+      width: 150,
       margin: const EdgeInsets.only(
         left: kDefaultPadding,
         top: kDefaultPadding / 2,

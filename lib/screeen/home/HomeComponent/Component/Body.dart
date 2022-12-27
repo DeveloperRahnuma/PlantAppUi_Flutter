@@ -9,12 +9,16 @@ class HomeBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        HeaderWithSearchBox(),
-        TitleWithMore(title: "Recommended", press: () {}),
-        RecomendsPlants()
-      ],
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+          HeaderWithSearchBox(),
+          TitleWithMore(title: "Recommended", press: () {}),
+          RecomendsPlants(),
+          TitleWithMore(title: "Featured", press: () {}),
+          RecomendsPlants()
+        ],
+      ),
     );
   }
 }
